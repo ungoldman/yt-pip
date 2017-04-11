@@ -1,0 +1,35 @@
+{
+  "name": "yt-pip",
+  "description": "Watch youtube videos using macOS picture-in-picture.",
+  "version": "1.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com>",
+  "bin": {
+    "yt-pip": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ungoldman/yt-pip/issues"
+  },
+  "dependencies": {
+    "open-pip-cli": "^1.3.0",
+    "ytdl": "^0.5.1"
+  },
+  "devDependencies": {
+    "gh-release": "^2.2.1",
+    "standard": "^10.0.1"
+  },
+  "homepage": "https://github.com/ungoldman/yt-pip",
+  "keywords": [
+    "pip",
+    "youtube"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ungoldman/yt-pip.git"
+  },
+  "scripts": {
+    "release": "gh-release && npm publish",
+    "test": "standard"
+  }
+}
