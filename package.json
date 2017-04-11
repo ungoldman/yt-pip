@@ -1,7 +1,7 @@
 {
   "name": "yt-pip",
   "description": "Watch youtube videos using macOS picture-in-picture.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nate Goldman <ungoldman@gmail.com>",
   "bin": {
     "yt-pip": "index.js"
