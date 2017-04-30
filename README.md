@@ -1,5 +1,7 @@
 # yt-pip
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hypermodules/yt-pip.svg)](https://greenkeeper.io/)
+
 Watch youtube videos using macOS picture-in-picture.
 
 [![npm][npm-image]][npm-url]
